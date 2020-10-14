@@ -1,0 +1,52 @@
+
+header,footer{
+    color:black;
+    background-color: darkkhaki;
+    
+}
+.mydog1 {
+    box-shadow: black 2px 1px;
+}
+
+body{
+    
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+    text-size-adjust: 18px;
+    font-weight: bold;
+ }
+a{
+    background-color: darkkhaki;
+}
+ p{
+    background-color: rgb(237, 253, 147);
+}
+h1,h2 {padding: 10px;
+    text-decoration: underline
+    
+}
+
+
+article >P {
+    
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+ul a { 
+    background-color: rgba(5, 212, 202, 0.513);
+
+}
+
+article{ 
+    box-align: center;
+    width: 50%;
+}
+
+.set-title{
+    background-color: cyan;
+}
+
+
+
