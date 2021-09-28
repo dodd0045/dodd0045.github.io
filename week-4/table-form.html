@@ -1,18 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tables & forms</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>tables & forms</title>
 </head>
 <body>
     <section>
         <h2>Forms</h2>
         <form action="thanks.html" method="get">
-            <label for="fullname">Full Name</label>
-            <input id="fullname" type="text" name="fullname">
-            </form>
+             <div>
+                <label for="fullname">Full Name</label>
+                <input id="fullname" type="text" name="fullname">
+            </div>
+                <div>
+                    <label for="message">your meessage</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="send">
+                </div>
+         </form>
+    </section>
+    <section>
+        <h2>Tables</h2>
+        <table>
+           <caption> Student information </caption>
+           <thead>
+               <tr>
+                   <th>Name</th>
+                   <th>section</th>
+                   <th>Student Number</th>
+               </tr>
+           </thead> 
+           <tbody>
+               <tr>
+                   <td>ryan</td>
+                   <td>010</td>
+                   <td>040632025</td>
+               </tr>
+               <tr>
+                   <td>Jane</td>
+                   <td>020</td>
+                   <td>07284375</td>
+               </tr>
+           </tbody>
+        </table>
     </section>
 </body>
 </html>
