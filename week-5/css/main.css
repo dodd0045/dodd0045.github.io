@@ -1,5 +1,36 @@
 body {
     color: burlywood;
-    background-color: dimgray; /* comment note in css */
-   
+    /* comment note in css */
+}
+h1 {
+    color: rgb(255, 238, 0);
+}
+p, li {
+    color: coral;
+}
+section h1 {
+    color: crimson;
+}
+/* stye a class */
+.secondary-heading {
+    color:purple ;
+} 
+
+/* style an id */
+#main-section {
+    
+    
+}
+
+/* LVHA */
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: black;
 }
