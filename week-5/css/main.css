@@ -11,15 +11,19 @@ p, li {
 section h1 {
     color: crimson;
 }
-/* stye a class */
-.secondary-heading {
-    color:purple ;
-} 
+/* style a class */
+    .secondary-heading {
+        color:purple ;
+    } 
 
 /* style an id */
-#main-section {
-    
-    
+    #main-section, li  {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+    }
+
+ul:nth-child(1){
+    color: blue;
 }
 
 /* LVHA */
@@ -33,4 +37,11 @@ a:visited {
 
 a:hover {
     color: black;
+}
+
+a:active {
+    color: white;
+}
+li:nth-child(odd) {
+    background-color: wheat;
 }
