@@ -8,8 +8,22 @@ body{
     line-height: 1.5;
     background-color: #f7eaea;
     background-image: url(../images/white_brick_wall.png);
+    background-repeat: no-repeat;
     
 
+}
+
+header {
+    color: seashell;
+    background-color: sandybrown;
+    background-image: url(../images/bread.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    
+    
+    
+    
 }
 
 p:nth-child(3) {
@@ -27,5 +41,6 @@ p:nth-child(3) {
 }
 
 h1{
-    font-size: 4rem;
+  font-weight: normal;
+  
 }
