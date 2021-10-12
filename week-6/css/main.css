@@ -4,6 +4,9 @@ body{
     line-height: 1.5;
     background-color: #f7eaea;
     background-image: url(../images/white_brick_wall.png);
+    background-repeat: no-repeat;
+    background-position: top right ;
+    background-size: contain;
 }
 
 p:nth-child(3) {
