@@ -1,0 +1,49 @@
+
+
+html{
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after{
+    box-sizing: inherit;
+  }
+
+ 
+
+  nav ul li {
+    display: inline-block;
+    margin: 10px;
+  }
+
+.box{
+    width: 200px;
+    background-color: brown;
+    color: cornsilk;
+    /*
+         introduce box model 
+    */
+    padding: 10px;  /*  20px total  */
+    border: 5px solid black ;  /* 10px total  */
+    margin: 10px; /*  20px total  */ 
+    /*  Float the boxes beside each other  */
+    float: left;
+}
+
+/* center a box level element */
+/* .box1 {
+margin: 0 auto;
+} */
+
+
+.box1{
+    box-sizing: content-box;
+}
+
+.box2{
+    box-sizing: border-box;
+}
+
+.clear{
+    clear: left;
+}
