@@ -1,20 +1,88 @@
 
-
 html{
+    background-color: #aad4cf;
     box-sizing: border-box;
   }
-  *,
-  *:before,
-  *:after{
+    *,
+    *:before,
+    *:after{
     box-sizing: inherit;
   }
 
- 
+nav li:last-child {
+    border-right: 0 ;
+
+  }
+
+ h3{
+     margin-block: 0px;
+    font-weight: normal;
+    font-size: 25pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+  }
+
+  p{
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  body{
+      padding-left:  100px;
+      padding-right: 100px;
+  }
+
+  .patrick{
+      margin-right:10px ;
+      padding: 10px;
+      float: left;
+      width: 270px;
+  }
+
+  .centerstar {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .center{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 45pt;
+      position: absolute;
+      top: 68%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  li{
+      color: #000;
+  }
+
+  ul{
+      margin-block: 0;
+  }
+  
+  nav{
+     padding top: 0px;
+      padding-bottom: 50px;
+  }
 
   nav ul li {
+    padding: 0 95px;
+    border-right: 2px solid black ;
     display: inline-block;
     margin: 10px;
+    font-size: 19pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    position: relative; 
+    
   }
+
+  a{
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    position: relative;
+    
+}
 
 .box{
     width: 200px;
@@ -44,6 +112,18 @@ margin: 0 auto;
     box-sizing: border-box;
 }
 
-.clear{
-    clear: left;
+
+
+/*  css Positioning  */
+.stage {
+    background-color: #d4e9e7;
+    width: 1024px;
 }
+
+.main{
+    font-size: 12pt;
+    line-height: 22px;
+    padding: 11px;
+
+}
+
