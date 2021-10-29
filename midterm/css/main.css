@@ -14,12 +14,22 @@ nav li:last-child {
 
   }
 
+  
+
  h3{
-     margin-block: 0px;
+    padding-left: 10px;
+    line-height: 0px;
     font-weight: normal;
-    font-size: 25pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
       
+  }
+
+  
+
+  .pat{
+    position: relative;
+    bottom: 20px;
+    font-size: 22.5pt;
   }
 
   p{
@@ -44,35 +54,35 @@ nav li:last-child {
     color: white;
   }
   .center{
+    
+      font-weight: normal;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-size: 45pt;
+      font-size: 44pt;
       position: absolute;
-      top: 68%;
+      top: 66%;
       left: 50%;
       transform: translate(-50%, -50%);
   }
 
   li{
       color: #000;
+      font-family: Arial, Helvetica, sans-serif;
   }
 
-  ul{
-      margin-block: 0;
-  }
   
   nav{
-     padding top: 0px;
-      padding-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 50px;
   }
 
   nav ul li {
-    padding: 0 95px;
+    padding: 0 110px;
     border-right: 2px solid black ;
     display: inline-block;
-    margin: 10px;
     font-size: 19pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     position: relative; 
+    margin-top: 0px;
     
   }
 
@@ -84,40 +94,10 @@ nav li:last-child {
     
 }
 
-.box{
-    width: 200px;
-    background-color: brown;
-    color: cornsilk;
-    /*
-         introduce box model 
-    */
-    padding: 10px;  /*  20px total  */
-    border: 5px solid black ;  /* 10px total  */
-    margin: 10px; /*  20px total  */ 
-    /*  Float the boxes beside each other  */
-    float: left;
-}
-
-/* center a box level element */
-/* .box1 {
-margin: 0 auto;
-} */
-
-
-.box1{
-    box-sizing: content-box;
-}
-
-.box2{
-    box-sizing: border-box;
-}
-
-
-
-/*  css Positioning  */
 .stage {
     background-color: #d4e9e7;
     width: 1024px;
+    
 }
 
 .main{
@@ -127,3 +107,61 @@ margin: 0 auto;
 
 }
 
+ul{
+  padding-left: 30px;
+}
+
+.facts{
+  font-size: 20pt;
+}
+
+.topbar{
+  margin-top: 10px;
+}
+
+.contact{
+  padding-left: 10px;
+  font-size: 20pt;
+}
+
+.container{
+  border: 1px solid black ;
+  margin: 10px;
+  padding: 10px;
+
+}
+
+
+
+input{
+  
+  width: 100%;
+}
+
+.visit{
+  font-size: 15pt;
+  padding: 10px;
+}
+
+
+.inputs{
+  position: relative;
+  margin: 5px;
+  padding-top: 10px;
+  right: 5px;
+  
+}
+
+.message{
+  padding: 30px;
+}
+
+footer{
+  position: relative;
+  left: 86%;
+  padding: 20px;
+}
+
+label{
+  float: inline-start;
+}
