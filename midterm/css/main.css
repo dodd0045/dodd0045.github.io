@@ -89,6 +89,7 @@ nav li:last-child {
 .stage {
     background-color: #d4e9e7;
     width: 1024px;
+    margin: 0 auto;
     
 }
 /*  main paragraph styling   */
