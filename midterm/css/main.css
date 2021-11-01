@@ -1,80 +1,72 @@
 
 html{
-    background-color: #aad4cf;
-    box-sizing: border-box;
-  }
-    *,
-    *:before,
-    *:after{
-    box-sizing: inherit;
-  }
+      background-color: #aad4cf;
+      box-sizing: border-box;
+}
+      *,
+      *:before,
+      *:after{
+      box-sizing: inherit;
+}
 
 nav li:last-child {
-    border-right: 0 ;
+      border-right: 0 ;
 
   }
-
-  
 
   h3{
-    padding-left: 10px;
-    line-height: 0px;
-    font-weight: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-      
+      padding-left: 10px;
+      line-height: 0px;
+      font-family: Arial, Helvetica, sans-serif;
   }
-
-  
-
+/*  abbreviated for patrick the starfish / styling for title   */
   .pat{
-    position: relative;
-    bottom: 20px;
-    font-size: 22.5pt;
+      position: relative;
+      bottom: 20px;
+      font-size: 22.5pt;
   }
 
   p{
       font-family:Arial, Helvetica, sans-serif;
   }
-
+/*  padding for the sides to be same as original dont know how to make it scalable and keep widths   */
   body{
       padding-left:  100px;
       padding-right: 100px;
   }
-
+/*  image of the starfish with text wraping   */
   .patrick{
       margin-right:10px ;
       padding: 10px;
       float: left;
       width: 270px;
   }
-
+/*  styling for text on the long picturee at the top   */
   .centerstar {
-    position: relative;
-    text-align: center;
-    color: white;
+      position: relative;
+      text-align: center;
+      color: white;
   }
+/*  styling for the text centered over the long image at the top  */
   .center{
-    
-      font-weight: normal;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
       font-size: 44pt;
       position: absolute;
       top: 66%;
       left: 50%;
       transform: translate(-50%, -50%);
   }
-
+/*  listed items styling */
   li{
       color: #000;
       font-family: Arial, Helvetica, sans-serif;
   }
-
-  
+/*  spacing for the nav bar  */
   nav{
     padding-top: 0px;
     padding-bottom: 50px;
   }
-
+/*  spacing and stying for the horizontal lines in the nav bar   */
   nav ul li {
     padding: 0 110px;
     border-right: 2px solid black ;
@@ -85,7 +77,7 @@ nav li:last-child {
     margin-top: 0px;
     
   }
-
+/*  nav bar color change removal of underline   */
   a{
     color: black;
     text-decoration: none;
@@ -93,52 +85,47 @@ nav li:last-child {
     position: relative;
     
 }
-
+/*  color of the main horizontal strip with all the content   */
 .stage {
     background-color: #d4e9e7;
     width: 1024px;
     
 }
-
+/*  main paragraph styling   */
 .main{
     font-size: 12pt;
     line-height: 22px;
     padding: 11px;
-
 }
-
+/*  lining up the bullet points    */
 ul{
-  padding-left: 30px;
+  padding-left: 25px;
 }
-
+/* font sizing for facts section   */
 .facts{
   font-size: 20pt;
 }
-
+/*  brings nav bar closer to the image  */
 .topbar{
-  margin-top: 10px;
+  margin-top: 0px;
 }
-
+/*  gives space on left side    */
 .contact{
   padding-left: 10px;
   font-size: 22pt;
   
 }
-
+/*  gives space on left side to all elements inside div    */
 .container{
   border: 1px solid black ;
   margin: 10px;
   padding: 10px;
   padding-bottom: 10px;
-  
-
 }
 
 .visit{
- 
   clear: none;
-  font-size: 15pt;
-  
+  font-size: 15pt; 
 }
 
 .container2{
