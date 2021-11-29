@@ -1,0 +1,9 @@
+.grid-container {
+    display:grid;
+    grid-row: 1/ span 3 ;
+}
+
+div{
+    background: lightblue;
+    border: 1px solid black;
+}
