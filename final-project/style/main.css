@@ -730,10 +730,10 @@ footer{
 	.logo{
 		display: flex;
 		flex-wrap: wrap;
-		width: 0%;
+		background: none;
 	}
 
-	nav .current-about, .current {
+	nav .current-about .current {
 		display: flex;
 		flex-wrap: wrap;
 	}
@@ -744,6 +744,7 @@ footer{
 	}
 
 	.menu-section li a{
+		flex-wrap: wrap;
 		display: flex;
 		float: left
 	}
@@ -839,9 +840,10 @@ footer{
 
 
 		.team-section{
+			width: 100%;
 			display: grid;
-			grid-template-columns: repeat(2, 1fr);
-			grid-template-rows: repeat(2, 1fr);
+			grid-template-columns: repeat(2);
+			grid-template-rows: repeat(3, 10%);
 			grid-template-areas:
 		
 			'one one '
@@ -858,10 +860,12 @@ footer{
 			}
 		
 			.team-john-text{
+				background-color: #ffe6ac ;
 				grid-area: three;
 			}
 		
 			.team-bob-text{
+				background-color: #ffe6ac ;
 				grid-area: four;
 			} 
 		
@@ -872,38 +876,43 @@ footer{
 
 			.contact-grid{
 				display: grid;
-				grid-template-columns: repeat(2, 1fr);
-				grid-template-rows: repeat(3, 1fr);
+				grid-template-columns: repeat(2, 50% 50% );
+				grid-template-rows: repeat(3, 10%);
 				grid-template-areas:
 			
-				'one one '
+				'one one'
 				'two three'
 				'four four';
+
 				}	
-			
-				.contact-section{
+
+				.contact-title{
 					grid-area: one;
 				}
 			
 				.contact-section{
 					grid-area: two;
-				}
+				}   
 			
 				.location-section{
 					grid-area: three;
 				}
 			
-				.hours{
+				.hours-section{
 					grid-area: four;
 				} 
-			
-				
+				.location-section{
+					width: 100%;
+				}
 
-
-
-
-
+				.contact-title{
+					font-size: 32px;
+					font-weight: 700;
+					padding: 14px;
+					padding-bottom: 40px;
+				}
 }
+
 
 
 
