@@ -129,6 +129,7 @@ header a{
 
 .banner{
 	height: 600px;
+	width: 100%;
 }
 
 #wrapper {
@@ -188,7 +189,7 @@ nav{
 
 .about-section{
 	background-color: #ffe5ad;	
-	max-width: 706px;
+	
 	padding: 14px;
 }
 
@@ -523,10 +524,12 @@ background-color: #ffe5ad ;
 
 .team-section{
 	padding: 14px;
+	width: 100%;
 }
 
 .team-section img{
 	max-width: 100%;
+	width: 100%;
 }
 
 .team-section p{
@@ -629,6 +632,8 @@ label {
 
 .hours-section{
 	padding: 14px;
+	width: 100%;
+	
 }
 
 .hours-section h2 {
@@ -664,12 +669,20 @@ table, td, th{
 	padding: 14px;
 }
 
+.textarea{
+	padding: 14px;
+}
+
 footer{
 	padding: 14px;
 	color: rgb(175, 118, 12);
 	background-color: #222222 ;
-	margin: auto 0;
 	width: 100%;
+	display: table;
+    margin-left: auto;
+    margin-right: auto;
+	line-height: 30px;
+	padding-top: 10px;
 }
 
 
@@ -697,21 +710,23 @@ footer{
 	header, 
 	.team, 
 	.banner,
-	.team-section
-	
+	.team-section,
+	footer,
+	.location-section
 	{
 		width: 706px;
 		
 	}
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1100px) {
 	main, header, #wrapper2,footer{
-		width: 1200px;
-
+		width: 1100px;
 	}
 
 	.logo{
+		display: flex;
+		flex-wrap: wrap;
 		width: 0%;
 	}
 
@@ -729,6 +744,66 @@ footer{
 		display: flex;
 		float: left
 	}
+
+	#textbox{
+		width: 1000px;
+		margin: 50px;
+	}
+
+	.banner{
+		width: 100%;
+	}
+
+	.container{
+		display: flex;
+		text-align: left;
+		flex-wrap: wrap;
+		flex-flow: row nowrap;
+	}
+
+	.about-section{
+		width: 1073px;
+	}
+
+	.sections{
+		width: 500px;
+	}
+
+	.about-text{
+		display: flex;
+		flex-wrap: wrap;
+		padding: 14px;	
+	}
+
+	.services-grid{
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		grid-template-areas:
+		'one one one two two two'
+		'three three four four five five';
+	}
+
+		.services-section{
+			grid-area: one;
+		}
+
+		.marketing-section{
+			grid-area: two;
+		}
+
+		.video-section{
+			grid-area: three;
+		}
+
+		.web-section{
+			grid-area: four;
+		}
+
+		.print-section{
+			grid-area: five;
+		}
+
+	
 
 
 }
