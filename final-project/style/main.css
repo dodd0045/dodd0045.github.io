@@ -220,11 +220,12 @@ nav{
 	max-width: 706px;
 }
 
-.services-section h2{
+.service-title{
 	font-size: 48px;
 	font-weight: 700;
 	padding-top: 50px;
 	padding-bottom: 24px;
+	
 }
 
 .services-section button{
@@ -247,10 +248,12 @@ nav{
 	font-size: 30px;
 	padding-left: 14px;
 	padding-top: 30px;
+	padding-bottom: 24px
 } 
 
 .color{
 	background-color: #ffe5ad ;
+	
 }
 
 .marketing-section{
@@ -775,14 +778,45 @@ footer{
 		padding: 14px;	
 	}
 
+/*------ adjusted digital tranformation box to be the right hight ---*/
+
+	.color{
+		height: 646px;
+	}
+
+	.services-section button{
+		width: 490px;	
+	}
+
+	.marketing-section button{
+		width: 490px;	
+	}
+
+	.video-section button{
+		width: 310px;	
+	}
+
+	.web-section button{
+		width: 310px;
+	}
+
+	.print-section button{
+		width: 310px;
+	}
+
+	#wrapper2 p{
+		width: 1000px;
+	}
+
 	.services-grid{
+		display: grid;
 		grid-template-columns: repeat(6, 1fr);
 		grid-template-rows: repeat(2, 1fr);
 		grid-template-areas:
+		
 		'one one one two two two'
-		'three three four four five five';
+		'seven seven eight eight nine nine';
 	}
-
 		.services-section{
 			grid-area: one;
 		}
@@ -792,18 +826,86 @@ footer{
 		}
 
 		.video-section{
-			grid-area: three;
+			grid-area: seven;
 		}
 
 		.web-section{
-			grid-area: four;
+			grid-area: eight;
 		}
 
 		.print-section{
-			grid-area: five;
+			grid-area: nine;
 		}
 
-	
+
+		.team-section{
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: repeat(2, 1fr);
+			grid-template-areas:
+		
+			'one one '
+			'two three'
+			'four five';
+			}	
+		
+			.team-title{
+				grid-area: one;
+			}
+		
+			.team-john-pic{
+				grid-area: two;
+			}
+		
+			.team-john-text{
+				grid-area: three;
+			}
+		
+			.team-bob-text{
+				grid-area: four;
+			} 
+		
+			.team-bob-pic{
+				grid-area: five;
+			}
+		
+
+			.contact-grid{
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				grid-template-rows: repeat(3, 1fr);
+				grid-template-areas:
+			
+				'one one '
+				'two three'
+				'four four';
+				}	
+			
+				.contact-section{
+					grid-area: one;
+				}
+			
+				.contact-section{
+					grid-area: two;
+				}
+			
+				.location-section{
+					grid-area: three;
+				}
+			
+				.hours{
+					grid-area: four;
+				} 
+			
+				
+
+
+
 
 
 }
+
+
+
+
+
