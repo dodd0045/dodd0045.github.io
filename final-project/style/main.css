@@ -780,7 +780,7 @@ footer{
 	}
 
 	.about-section{
-		width: 1200px;
+		width: 1172px;
 	}
 
 	.sections{
@@ -858,7 +858,7 @@ footer{
 			width: 100%;
 			display: grid;
 			grid-template-columns: repeat(2);
-			grid-template-rows: repeat(3, 40% 40% 40%);
+			grid-template-rows: repeat(3, 10% 40% 40% );
 			grid-template-areas:
 		
 			'one one '
@@ -886,6 +886,7 @@ footer{
 		
 			.team-bob-pic{
 				grid-area: five;
+				padding-bottom: 5.5em;
 			}
 		
 
@@ -926,9 +927,7 @@ footer{
 					padding: 14px;
 					padding-bottom: 40px;
 				}
-				.team-section{
-					padding-bottom: 200px;
-				}
+			
 }
 
 
