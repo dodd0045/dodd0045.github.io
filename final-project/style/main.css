@@ -71,20 +71,21 @@ p h2 h1 h3{
 	display: flex;
 	flex-direction: column;
 	text-align: center;	
+
 }
 
 li{
-	font-family: 'Open Sans'
+	font-family: 'Open Sans';
+}
+
+li:nth-child(n+2){
+	padding: 20px;
 }
 
 .logo{
 	background-color: #c78c06;	
 	padding-bottom: 42px;
 	padding-top: 19px;
-}
-
-.current-about{
-	line-height: 60px;
 }
 
 .search{
@@ -588,11 +589,12 @@ hr{
 	padding: 14px;
 }
 
-.contact-section h2{
+.contact-grid h2{
 	font-weight: 700;
 	font-size: 45px;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	padding-left: 14px;
 }
 
 .contact-section h3{
@@ -719,6 +721,8 @@ footer{
 	{
 		width: 706px;
 	}
+
+	
 }
 
 @media screen and (min-width: 1200px) {
@@ -728,8 +732,19 @@ footer{
 
 	.upper-header   {
 		display: flex;
-		align-content: center;	
 		align-items: center;
+		
+	}
+
+	.menu-section{
+		flex-direction: row;
+		flex-grow: 1;
+		display: flex;
+		padding-left: 40px;
+	}
+
+	.menu-section li a{
+		padding: 20px;
 	}
 
 	.search-section{
@@ -737,17 +752,11 @@ footer{
 	}
 
 	.current a{
-		float: left;
 		color: #c78c06;
 		background-color: transparent;
 	}
 	
-    li{
-		
-		display: inline-block;
-		padding-left: 50px;
-		padding-right: 50px;	
-	}
+ 
 
 	.logo{
 		background: none;
@@ -787,7 +796,7 @@ footer{
 /*------ adjusted digital tranformation box to be the right hight ---*/
 
 	.color{
-		height: 646px;
+		height: 678px;
 	}
 
 	.services-section button{
@@ -825,6 +834,7 @@ footer{
 	}
 		.services-section{
 			grid-area: one;
+			
 		}
 
 		.marketing-section{
