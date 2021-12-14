@@ -45,9 +45,11 @@ table {
 
 /*--------------------------------START------------------------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
 body{
 	background-color: white;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;	
+	font-family: 'open sans'
 }
 
 main{
@@ -61,7 +63,7 @@ header{
 }
 
 p h2 h1 h3{
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family: 'Open Sans'
 }
 
 
@@ -72,18 +74,16 @@ p h2 h1 h3{
 }
 
 li{
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family: 'Open Sans'
 }
 
 .logo{
-	background-color: #c78c06;
-	display: block;	
+	background-color: #c78c06;	
 	padding-bottom: 42px;
 	padding-top: 19px;
 }
 
 .current-about{
-	position: relative;
 	line-height: 60px;
 }
 
@@ -718,39 +718,44 @@ footer{
 	.location-section
 	{
 		width: 706px;
-		
 	}
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1200px) {
 	main, header, #wrapper2,footer{
-		width: 1100px;
+		width: 1200px;
+	}
+
+	.upper-header   {
+		display: flex;
+		align-content: center;	
+		align-items: center;
+	}
+
+	.search-section{
+		height: 30px;
+	}
+
+	.current a{
+		float: left;
+		color: #c78c06;
+		background-color: transparent;
+	}
+	
+    li{
+		
+		display: inline-block;
+		padding-left: 50px;
+		padding-right: 50px;	
 	}
 
 	.logo{
-		display: flex;
-		flex-wrap: wrap;
 		background: none;
-	}
-
-	nav .current-about .current {
-		display: flex;
-		flex-wrap: wrap;
-	}
-	
-	.current{
-		flex-wrap: wrap;
-		float: right;
-	}
-
-	.menu-section li a{
-		flex-wrap: wrap;
-		display: flex;
-		float: left
+		padding: 20px;
 	}
 
 	#textbox{
-		width: 1000px;
+		width: 1100px;
 		margin: 50px;
 	}
 
@@ -766,7 +771,7 @@ footer{
 	}
 
 	.about-section{
-		width: 1073px;
+		width: 1200px;
 	}
 
 	.sections{
