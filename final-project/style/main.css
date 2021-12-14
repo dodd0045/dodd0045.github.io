@@ -848,7 +848,7 @@ footer{
 			width: 100%;
 			display: grid;
 			grid-template-columns: repeat(2);
-			grid-template-rows: repeat(3, 10%);
+			grid-template-rows: repeat(3, 40% 40% 40%);
 			grid-template-areas:
 		
 			'one one '
@@ -882,7 +882,7 @@ footer{
 			.contact-grid{
 				display: grid;
 				grid-template-columns: repeat(2, 50% 50% );
-				grid-template-rows: repeat(3, 10%);
+				grid-template-rows: repeat(3, 10% 50% 50%);
 				grid-template-areas:
 			
 				'one one'
@@ -915,6 +915,9 @@ footer{
 					font-weight: 700;
 					padding: 14px;
 					padding-bottom: 40px;
+				}
+				.team-section{
+					padding-bottom: 200px;
 				}
 }
 
